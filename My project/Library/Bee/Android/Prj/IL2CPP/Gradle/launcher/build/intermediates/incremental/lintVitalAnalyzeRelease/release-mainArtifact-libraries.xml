@@ -1,9 +1,9 @@
 <libraries>
   <library
-      name="C:\Users\riley\Downloads\My project\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
-      jars="C:\Users\riley\Downloads\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\bc7889b7091f9d643a833ee7b83b5d0b\transformed\out\jars\classes.jar;C:\Users\riley\Downloads\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\bc7889b7091f9d643a833ee7b83b5d0b\transformed\out\jars\libs\unity-classes.jar"
+      name="C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+      jars="C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\a0c823c77a2627ff2b936e49413c23f8\transformed\out\jars\classes.jar;C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\a0c823c77a2627ff2b936e49413c23f8\transformed\out\jars\libs\unity-classes.jar"
       resolved="Gradle:unityLibrary:unspecified"
-      folder="C:\Users\riley\Downloads\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\bc7889b7091f9d643a833ee7b83b5d0b\transformed\out"
+      folder="C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\a0c823c77a2627ff2b936e49413c23f8\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -13,7 +13,7 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="__local_aars__:C:\Users\riley\Downloads\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
-      jars="C:\Users\riley\Downloads\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"
-      resolved="__local_aars__:C:\Users\riley\Downloads\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
+      name="__local_aars__:C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
 </libraries>
