@@ -131,6 +131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 929221357895914643, guid: 060bb0d63dff98a4081b31bc8e3e1697, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 06235c956ced64c4aac612aa928da017, type: 2}
     - target: {fileID: 2436458936882996481, guid: 060bb0d63dff98a4081b31bc8e3e1697, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -171,10 +175,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2776113183810395453, guid: 060bb0d63dff98a4081b31bc8e3e1697, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 06235c956ced64c4aac612aa928da017, type: 2}
     - target: {fileID: 7847207684902552678, guid: 060bb0d63dff98a4081b31bc8e3e1697, type: 3}
       propertyPath: m_Name
       value: Basic Tile
       objectReference: {fileID: 0}
+    - target: {fileID: 7966285851290018519, guid: 060bb0d63dff98a4081b31bc8e3e1697, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 06235c956ced64c4aac612aa928da017, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -501,7 +513,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8906eb98d7cb898469cd184375dd4d4d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
