@@ -558,8 +558,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ca4801f2dad81640bf1e81915d30091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dodgeSpeed: 3
-  rollSpeed: 2
+  dodgeSpeed: 10
+  rollSpeed: 10
+  horizMovement: 0
+  swipeMove: 2
+  minSwipeDistance: 0.25
+  minScale: 0.5
+  maxScale: 3
 --- !u!1 &1978661754
 GameObject:
   m_ObjectHideFlags: 0
