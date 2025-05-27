@@ -35,98 +35,116 @@
 22-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-33
 23    <uses-feature
 23-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:36
-24        android:name="android.hardware.touchscreen"
-24-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-52
+24        android:name="android.hardware.sensor.accelerometer"
+24-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-61
 25        android:required="false" />
 25-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-33
-26
-27    <application
-27-->C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
-28        android:extractNativeLibs="true"
-28-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:18-50
-29        android:icon="@mipmap/app_icon"
-29-->C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
-30        android:label="@string/app_name" >
-30-->C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
-31        <meta-data
-31-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-21:33
-32            android:name="unity.splash-mode"
-32-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-45
-33            android:value="0" />
-33-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-30
-34        <meta-data
-34-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-24:36
-35            android:name="unity.splash-enable"
-35-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-47
-36            android:value="True" />
-36-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-33
-37        <meta-data
-37-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-27:36
-38            android:name="unity.launch-fullscreen"
-38-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-51
-39            android:value="True" />
-39-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-33
+26    <uses-feature
+26-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-19:36
+27        android:name="android.hardware.touchscreen"
+27-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-52
+28        android:required="false" />
+28-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-33
+29    <uses-feature
+29-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-22:36
+30        android:name="android.hardware.touchscreen.multitouch"
+30-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-63
+31        android:required="false" />
+31-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-33
+32    <uses-feature
+32-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:5-25:36
+33        android:name="android.hardware.touchscreen.multitouch.distinct"
+33-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-72
+34        android:required="false" />
+34-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-33
+35
+36    <application
+36-->C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+37        android:extractNativeLibs="true"
+37-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:18-50
+38        android:icon="@mipmap/app_icon"
+38-->C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+39        android:label="@string/app_name" >
+39-->C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
 40        <meta-data
-40-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-30:37
-41            android:name="unity.allow-resizable-window"
-41-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-56
-42            android:value="False" />
-42-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-34
+40-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-30:33
+41            android:name="unity.splash-mode"
+41-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-45
+42            android:value="0" />
+42-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-30
 43        <meta-data
-43-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:9-33:50
-44            android:name="notch.config"
-44-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-40
-45            android:value="portrait|landscape" />
-45-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-47
+43-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:9-33:36
+44            android:name="unity.splash-enable"
+44-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-47
+45            android:value="True" />
+45-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-33
 46        <meta-data
 46-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-36:36
-47            android:name="unity.auto-report-fully-drawn"
-47-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-57
-48            android:value="true" />
+47            android:name="unity.launch-fullscreen"
+47-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-51
+48            android:value="True" />
 48-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-33
-49
-50        <activity
-50-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:9-59:20
-51            android:name="com.unity3d.player.UnityPlayerActivity"
-51-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:13-66
-52            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-52-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-194
-53            android:exported="true"
-53-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-36
-54            android:hardwareAccelerated="false"
-54-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-48
-55            android:launchMode="singleTask"
-55-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-44
-56            android:resizeableActivity="false"
-56-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-47
-57            android:screenOrientation="fullUser"
-57-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-49
-58            android:theme="@style/UnityThemeSelector" >
-58-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-54
-59            <intent-filter>
-59-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-51:29
-60                <category android:name="android.intent.category.LAUNCHER" />
-60-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:17-77
-60-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:27-74
-61
-62                <action android:name="android.intent.action.MAIN" />
-62-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:17-69
-62-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:25-66
-63            </intent-filter>
-64
-65            <meta-data
-65-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-55:40
-66                android:name="unityplayer.UnityActivity"
-66-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:17-57
-67                android:value="true" />
-67-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:17-37
-68            <meta-data
-68-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:13-58:40
-69                android:name="notch_support"
-69-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:17-45
-70                android:value="true" />
-70-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:17-37
-71        </activity>
-72    </application>
+49        <meta-data
+49-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-39:37
+50            android:name="unity.allow-resizable-window"
+50-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-56
+51            android:value="False" />
+51-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:13-34
+52        <meta-data
+52-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-42:50
+53            android:name="notch.config"
+53-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-40
+54            android:value="portrait|landscape" />
+54-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-47
+55        <meta-data
+55-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:9-45:36
+56            android:name="unity.auto-report-fully-drawn"
+56-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-57
+57            android:value="true" />
+57-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-33
+58
+59        <activity
+59-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:9-68:20
+60            android:name="com.unity3d.player.UnityPlayerActivity"
+60-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-66
+61            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+61-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-194
+62            android:exported="true"
+62-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-36
+63            android:hardwareAccelerated="false"
+63-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-48
+64            android:launchMode="singleTask"
+64-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-44
+65            android:resizeableActivity="false"
+65-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-47
+66            android:screenOrientation="fullUser"
+66-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-49
+67            android:theme="@style/UnityThemeSelector" >
+67-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-54
+68            <intent-filter>
+68-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:13-60:29
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:17-77
+69-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:27-74
+70
+71                <action android:name="android.intent.action.MAIN" />
+71-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:17-69
+71-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:25-66
+72            </intent-filter>
 73
-74</manifest>
+74            <meta-data
+74-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:13-64:40
+75                android:name="unityplayer.UnityActivity"
+75-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:17-57
+76                android:value="true" />
+76-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:17-37
+77            <meta-data
+77-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:13-67:40
+78                android:name="notch_support"
+78-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:17-45
+79                android:value="true" />
+79-->[:unityLibrary] C:\Users\riley\OneDrive\Documents\Game Engines 2024\Repo_For_Mobile\Mobile-Game\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:17-37
+80        </activity>
+81    </application>
+82
+83</manifest>

@@ -12,6 +12,9 @@
 
 
 
+extern void Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A (void);
+extern void Touch_get_deltaPosition_m2D51F960B74C94821ED0F6A09E44C80FD796D299 (void);
+extern void Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0 (void);
 extern void CameraRaycastHelper_RaycastTry_m79A654495BD2C09623E9067BCC70D23A0DA3BF58 (void);
 extern void CameraRaycastHelper_RaycastTry2D_m132832B9171CD030AD231A63BF70D1226ED1F373 (void);
 extern void CameraRaycastHelper_RaycastTry_Injected_m4A9EA285FB7B24B7B3D894E7EE997B41ED302DEF (void);
@@ -19,9 +22,15 @@ extern void CameraRaycastHelper_RaycastTry2D_Injected_m2620821FE8CB793C314AAE43E
 extern void Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62 (void);
 extern void Input_GetMouseButton_m4995DD4A2D4F916565C1B1B5AAF7DF17C126B3EA (void);
 extern void Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3 (void);
+extern void Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1 (void);
 extern void Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C (void);
+extern void Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39 (void);
+extern void Input_get_acceleration_m73A4104C360F0F5E590B94745137BDD78AEFC56A (void);
+extern void Input_get_touches_m7CFDF6848F3EC3A8FE458436B2B8BD14B5C65CEF (void);
 extern void Input_CheckDisabled_m359B281F7F5DDAB74780E1898311AECD9B0ECCE1 (void);
+extern void Input_GetTouch_Injected_m04E25DD035583531339AB310FBDD4F5A30817F87 (void);
 extern void Input_get_mousePosition_Injected_m7EF43ADB535051F9182A366CA84951F946984E1A (void);
+extern void Input_get_acceleration_Injected_m09D52B38221B9D246F7DA233E0350C3FA5855C2A (void);
 extern void SendMouseEvents_UpdateMouse_m7EC9A21B75612D3AA9ECEE2BB142A27481147FF1 (void);
 extern void SendMouseEvents_SetMouseMoved_mDA82278267CC62E9942C9D6154610AD7F3308B51 (void);
 extern void SendMouseEvents_DoSendMouseEvents_m17FCC3A684C7BC4A7A6AA7EBB62E3F56AAB416A7 (void);
@@ -39,8 +48,11 @@ extern void InputUnsafeUtility_GetAxisRaw__Unmanaged_m31953D955E75028D274A75661C
 extern void InputUnsafeUtility_GetButton__Unmanaged_m270892EB7D8C88443200DF972F76076AC28952B2 (void);
 extern void InputUnsafeUtility_GetButtonDown__Unmanaged_m411E8743768382A33B3778E734AF072F8DBDECC4 (void);
 extern void InputUnsafeUtility_GetButtonUp__Unmanaged_mCCE34158CE05432541102B1C2AEC6545E25D0732 (void);
-static Il2CppMethodPointer s_methodPointers[27] = 
+static Il2CppMethodPointer s_methodPointers[36] = 
 {
+	Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A,
+	Touch_get_deltaPosition_m2D51F960B74C94821ED0F6A09E44C80FD796D299,
+	Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0,
 	CameraRaycastHelper_RaycastTry_m79A654495BD2C09623E9067BCC70D23A0DA3BF58,
 	CameraRaycastHelper_RaycastTry2D_m132832B9171CD030AD231A63BF70D1226ED1F373,
 	CameraRaycastHelper_RaycastTry_Injected_m4A9EA285FB7B24B7B3D894E7EE997B41ED302DEF,
@@ -48,9 +60,15 @@ static Il2CppMethodPointer s_methodPointers[27] =
 	Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62,
 	Input_GetMouseButton_m4995DD4A2D4F916565C1B1B5AAF7DF17C126B3EA,
 	Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3,
+	Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1,
 	Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C,
+	Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39,
+	Input_get_acceleration_m73A4104C360F0F5E590B94745137BDD78AEFC56A,
+	Input_get_touches_m7CFDF6848F3EC3A8FE458436B2B8BD14B5C65CEF,
 	Input_CheckDisabled_m359B281F7F5DDAB74780E1898311AECD9B0ECCE1,
+	Input_GetTouch_Injected_m04E25DD035583531339AB310FBDD4F5A30817F87,
 	Input_get_mousePosition_Injected_m7EF43ADB535051F9182A366CA84951F946984E1A,
+	Input_get_acceleration_Injected_m09D52B38221B9D246F7DA233E0350C3FA5855C2A,
 	SendMouseEvents_UpdateMouse_m7EC9A21B75612D3AA9ECEE2BB142A27481147FF1,
 	SendMouseEvents_SetMouseMoved_mDA82278267CC62E9942C9D6154610AD7F3308B51,
 	SendMouseEvents_DoSendMouseEvents_m17FCC3A684C7BC4A7A6AA7EBB62E3F56AAB416A7,
@@ -69,48 +87,63 @@ static Il2CppMethodPointer s_methodPointers[27] =
 	InputUnsafeUtility_GetButtonDown__Unmanaged_m411E8743768382A33B3778E734AF072F8DBDECC4,
 	InputUnsafeUtility_GetButtonUp__Unmanaged_mCCE34158CE05432541102B1C2AEC6545E25D0732,
 };
+extern void Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A_AdjustorThunk (void);
+extern void Touch_get_deltaPosition_m2D51F960B74C94821ED0F6A09E44C80FD796D299_AdjustorThunk (void);
+extern void Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0_AdjustorThunk (void);
 extern void HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
 {
-	{ 0x06000010, HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541_AdjustorThunk },
+	{ 0x06000001, Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A_AdjustorThunk },
+	{ 0x06000002, Touch_get_deltaPosition_m2D51F960B74C94821ED0F6A09E44C80FD796D299_AdjustorThunk },
+	{ 0x06000003, Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0_AdjustorThunk },
+	{ 0x06000019, HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[27] = 
+static const int32_t s_InvokerIndices[36] = 
 {
-	1437,
-	1437,
-	1425,
-	1425,
-	2208,
-	2054,
-	2054,
+	1172,
+	1172,
+	1136,
+	1453,
+	1453,
+	1441,
+	1441,
+	2226,
+	2072,
+	2072,
+	2236,
+	2336,
 	2316,
-	2289,
-	2264,
-	2318,
-	2318,
-	2266,
-	1962,
-	2318,
-	980,
-	2065,
-	1807,
-	1768,
-	1768,
-	1768,
-	2208,
-	1914,
-	1914,
-	1768,
-	1768,
-	1768,
+	2336,
+	2320,
+	2309,
+	1976,
+	2283,
+	2283,
+	2338,
+	2338,
+	2285,
+	1980,
+	2338,
+	993,
+	2083,
+	1824,
+	1785,
+	1785,
+	1785,
+	2226,
+	1931,
+	1931,
+	1785,
+	1785,
+	1785,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_InputLegacyModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_InputLegacyModule_CodeGenModule = 
 {
 	"UnityEngine.InputLegacyModule.dll",
-	27,
+	36,
 	s_methodPointers,
-	1,
+	4,
 	s_adjustorThunks,
 	s_InvokerIndices,
 	0,
