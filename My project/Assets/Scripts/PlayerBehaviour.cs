@@ -1,5 +1,7 @@
 using UnityEngine;
 
+using TMPro; //TextMeshProUGUI
+
 /// <summary>
 /// player automatically move and receiving input.
 /// </summary> 
@@ -55,13 +57,63 @@ public class PlayerBehaviour : MonoBehaviour
 
     private MobileJoystick joystick;
 
+    [Header("Object References")]
+    public TextMeshProUGUI scoreText;
+
+    private float score = 0;
+    public float Score
+    {
+        get
+        {
+            return score;
+        }
+        set
+        {
+            score = value;
+
+            /* Check if scoreText has been assigned */
+            if (scoreText == null)
+            {
+
+                Debug.LogError("Score Text is not set. " +
+                "Please go to the Inspector and assign it");
+                /* If not assigned, don't try to update it. */
+                return;
+            }
+
+            /* Update the text to display the whole number portion
+            /*  of the score */
+            scoreText.text = string.Format("{0:0}", score);
+
+            //High score stuff
+            int highScore = (int) score;
+            scoreText.text = highScore.ToString();
+
+            /*if(PlayerPrefs.GetInt("score")<=highScore)
+            {
+                PlayerPrefs.SetInt("score", highScore);
+            }*/
+            // same ig 
+
+            if(highScore> PlayerPrefs.GetInt("score"))
+            {
+                PlayerPrefs.SetInt("score", highScore);
+            }
+
+        }
+    }
+
     // Start is called before the first frame update
     public void Start()
     {
         //  Rigidbody component
         rb = GetComponent<Rigidbody>();
+
         minSwipeDistancePixels = minSwipeDistance * Screen.dpi;
+
         joystick = GameObject.FindObjectOfType<MobileJoystick>();
+
+        Score = 0;
     }
 
     /// <summary>
@@ -76,6 +128,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             return;
         }
+        Score += Time.deltaTime;
 
         // Check if we're moving to the side
         var horizontalSpeed = Input.GetAxis("Horizontal") * dodgeSpeed;
