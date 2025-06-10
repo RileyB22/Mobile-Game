@@ -641,6 +641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highScoreText: {fileID: 1972774420}
   controlPanel: {fileID: 380695286}
+  controlPanel2: {fileID: 2085482771}
 --- !u!4 &631475295
 Transform:
   m_ObjectHideFlags: 0

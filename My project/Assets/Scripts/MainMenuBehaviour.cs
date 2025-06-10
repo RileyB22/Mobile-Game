@@ -12,6 +12,7 @@ public class MainMenuBehaviour : MonoBehaviour
 
     public TextMeshProUGUI highScoreText;
     public GameObject controlPanel;
+    public GameObject controlPanel2;
 
     public void LoadLevel(string levelName)
     {
