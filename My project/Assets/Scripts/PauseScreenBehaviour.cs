@@ -7,6 +7,7 @@ public class PauseScreenBehaviour : MainMenuBehaviour
     /// If our game is currently paused
     /// </summary>
     public static bool paused;
+   
 
     [Tooltip("Reference to the pause menu object to turn on/off")]
     public GameObject pauseMenu;
@@ -32,7 +33,16 @@ public class PauseScreenBehaviour : MainMenuBehaviour
         /* If the game is paused, timeScale is 0, otherwise 1 */
         Time.timeScale = (paused) ? 0 : 1;
 
-        pauseMenu.SetActive(paused);
+       // pauseMenu.SetActive(paused);
+      
+      if (paused)
+      {
+           // SideMenuIn(pauseMenu);
+      }
+        else
+        {
+            SlideMenuOut(pauseMenu);
+        }
         onScreenControls.SetActive(!paused);
     }
 
