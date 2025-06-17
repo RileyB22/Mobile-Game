@@ -32,7 +32,7 @@ public class MainMenuBehaviour : MonoBehaviour
         //check hs 
         GetAndDisplayScore();
         //slide 
-        SlideMenuIn(controlPanel);
+        SlideMenuIn(controlPanel && controlPanel2);
     }
 
     private void GetAndDisplayScore()
